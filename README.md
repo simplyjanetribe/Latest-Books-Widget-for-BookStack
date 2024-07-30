@@ -1,7 +1,7 @@
 # Latest-Books-Widget-for-BookStack
 This code show the latest books under a shelf id . You can use as @include or offer a widget for people to add to their site
 
-![screenshot](screenshot.png)
+![screenshot](Screenshot_20240729-0800002.png)
 
 ## How to Use it
 
