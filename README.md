@@ -29,4 +29,4 @@ to use in your own site you can include the same way don't forget to use nonce, 
 &lt;/div&gt;
 </code></pre></code></pre>
 
-this code is taking books from shelf id 5, you can change that and you can duplicaye and rename the file to have the latest books from several shelfs. 
+this code is taking books from shelf id 5, you can change that, and you can duplicate and rename the file to have the latest books from several shelfs. 
