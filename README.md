@@ -7,10 +7,7 @@ the js file must be placed in public/dist folder if you want to use as an extern
 
 
 <pre><code><script type="text/javascript" src="https://yousite.com/dist/widgets/five.js"></script>
-<div>
-   <h3>Latest Books under </h3><h4 id="shelf-name"></h4>
-    <div id="bookshelf-container">    <!-- Books will be loaded here -->
-    </div></div></code></pre>
+<div><h3>Latest Books under </h3><h4 id="shelf-name"></h4><div id="bookshelf-container"><!-- Books will be loaded here --> </div></div></code></pre>
 
 
 to use in your own site you can include the same way or create a blade and add th code and use the @include method 
