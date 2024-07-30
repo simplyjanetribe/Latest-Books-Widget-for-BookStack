@@ -1,6 +1,8 @@
 # Latest-Books-Widget-for-BookStack
 This code show the latest books under a shelf id . You can use as @include or offer a widget for people to add to their site
 
+![screenshot](screenshot.png)
+
 ## How to Use it
 
 the js file must be placed in public/dist folder if you want to use as an external widget an included in external sites like this 
