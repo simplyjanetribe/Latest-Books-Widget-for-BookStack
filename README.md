@@ -18,6 +18,15 @@ the js file must be placed in public/dist folder if you want to use as an extern
 </code></pre></code></pre>
 
 
-to use in your own site you can include the same way or create a blade and add th code and use the @include method 
+
+to use in your own site you can include the same way don't forget to use nonce, or create a blade and add th code and use the @include method 
+   <pre><code><pre><code>
+&lt;script nonce=&quot;{{ $cspNonce }}&quot;type=&quot;text/javascript&quot; src=&quot;https://yousite.com/dist/widgets/five.js&quot;&gt;&lt;/script&gt;
+&lt;div&gt;
+   &lt;h3&gt;Latest Books under &lt;/h3&gt;&lt;h4 id=&quot;shelf-name&quot;&gt;&lt;/h4&gt;
+   &lt;div id=&quot;bookshelf-container&quot;&gt;    &lt;!-- Books will be loaded here --&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></code></pre>
 
 this code is taking books from shelf id 5, you can change that and you can duplicaye and rename the file to have the latest books from several shelfs. 
