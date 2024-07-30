@@ -6,8 +6,14 @@ This code show the latest books under a shelf id . You can use as @include or of
 the js file must be placed in public/dist folder if you want to use as an external widget an included in external sites like this 
 
 
-<pre><code><script type="text/javascript" src="https://yousite.com/dist/widgets/five.js"></script>
-<div><h3>Latest Books under </h3><h4 id="shelf-name"></h4><div id="bookshelf-container"><!-- Books will be loaded here --> </div></div></code></pre>
+<pre><code><pre><code>
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://yousite.com/dist/widgets/five.js&quot;&gt;&lt;/script&gt;
+&lt;div&gt;
+   &lt;h3&gt;Latest Books under &lt;/h3&gt;&lt;h4 id=&quot;shelf-name&quot;&gt;&lt;/h4&gt;
+   &lt;div id=&quot;bookshelf-container&quot;&gt;    &lt;!-- Books will be loaded here --&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></code></pre>
 
 
 to use in your own site you can include the same way or create a blade and add th code and use the @include method 
